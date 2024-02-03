@@ -23,7 +23,8 @@ For an even more immersive experience, we recommend combining the Typper theme w
   "workbench.colorTheme": "Typper",
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
-  "workbench.statusBar.visible": false
+  "workbench.statusBar.visible": false,
+  "editor.minimap.enabled": false
 }
 ```
 
