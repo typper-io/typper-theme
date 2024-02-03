@@ -2,6 +2,8 @@
 
 Welcome to the Typper theme for VS Code, a theme extension inspired by the aesthetics of one of the most innovative startups in artificial intelligence. Merging elegance with functionality, the Typper theme is more than just a color choice; it's a complete user experience that enhances your coding environment.
 
+![theme-example](./theme-example.png)
+
 ## Installation
 
 1. Open **Visual Studio Code**.
