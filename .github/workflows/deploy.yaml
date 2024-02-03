@@ -24,4 +24,4 @@ jobs:
         run: vsce package --baseContentUrl https://raw.githubusercontent.com/typper-io/typper-theme/main/ --baseImagesUrl https://raw.githubusercontent.com/typper-io/typper-theme/main/
 
       - name: Publish Extension
-        run: vsce publish -p ${{ secrets.VSCE_PAT }}
+        run: vsce publish -p ${{ secrets.VSCE_PAT }} --baseContentUrl https://raw.githubusercontent.com/typper-io/typper-theme/main/ --baseImagesUrl https://raw.githubusercontent.com/typper-io/typper-theme/main/
