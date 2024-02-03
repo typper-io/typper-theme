@@ -1,9 +1,9 @@
 {
-  "name": "Typper Light",
+  "name": "Typper Light Color Theme",
   "colors": {
     "editor.background": "#FBFFF6",
     "editor.foreground": "#10142C",
-    "editor.lineHighlightBackground": "#7BD90533",
+    "editor.lineHighlightBackground": "#7BD90550",
     "activityBar.background": "#FBFFF6",
     "activityBar.foreground": "#10142C",
     "sideBar.background": "#FBFFF6",
@@ -16,19 +16,22 @@
     "button.foreground": "#FBFFF6",
     "button.hoverBackground": "#0047FDCC",
     "editorCursor.foreground": "#0047FD",
-    "editor.selectionBackground": "#0047FD60",
-    "editorLineNumber.foreground": "#10142C99",
+    "editor.selectionBackground": "#0047FD30",
+    "editorLineNumber.foreground": "#00000088",
     "editorLineNumber.activeForeground": "#10142C",
     "editorWhitespace.foreground": "#10142C1A",
     "editorGroupHeader.tabsBackground": "#FBFFF6",
     "tab.inactiveBackground": "#FBFFF6",
-    "tab.activeBackground": "#FBFFF6",
-    "tab.hoverBackground": "#FBFFF6",
+    "tab.activeBackground": "#F0F0F0",
+    "tab.hoverBackground": "#f0f0f0",
     "tab.unfocusedHoverBackground": "#FBFFF6",
     "editorWidget.background": "#FBFFF6",
     "editorWidget.border": "#0047FD",
-    "tab.inactiveForeground": "#10142C99",
-    "tab.activeForeground": "#10142C"
+    "tab.inactiveForeground": "#10142C66",
+    "tab.activeForeground": "#10142C",
+    "tab.hoverBorder": "#0047FD",
+    "tab.activeBorder": "#0047FD",
+    "tab.unfocusedActiveBorder": "#FBFFF6"
   },
   "tokenColors": [
     {
@@ -40,13 +43,13 @@
     {
       "scope": "constant",
       "settings": {
-        "foreground": "#FFABC7"
+        "foreground": "#005cc5"
       }
     },
     {
       "scope": "entity",
       "settings": {
-        "foreground": "#FFABC7"
+        "foreground": "#d7005f"
       }
     },
     {
