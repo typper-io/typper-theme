@@ -4,7 +4,7 @@ Welcome to the Typper theme for VS Code, a theme extension inspired by the aesth
 
 ![theme-example-light](./theme-example-light.png)
 
-![theme-example-dark](./theme-example-light.png)
+![theme-example-dark](./theme-example-dark.png)
 
 ## Installation
 
