@@ -1,0 +1,23 @@
+{
+  "name": "typper-theme",
+  "displayName": "typper-theme",
+  "description": "",
+  "version": "0.0.3",
+  "publisher": "Typper",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Typper",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Typper-color-theme.json"
+      }
+    ]
+  }
+}

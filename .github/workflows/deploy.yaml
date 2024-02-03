@@ -1,0 +1,27 @@
+name: Deploy VS Code Extension
+
+on:
+  push:
+    branches:
+      - main # Ou qualquer que seja o branch que você deseja para o deploy
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: "14"
+
+      - name: Install vsce
+        run: npm install -g vsce
+
+      - name: Package Extension
+        run: vsce package
+
+      - name: Publish Extension
+        run: vsce publish -p ${{ secrets.VSCE_PAT }}
