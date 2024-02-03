@@ -33,7 +33,8 @@
     "editor.selectionBackground": "#D3D3D360",
     "editor.lineHighlightBackground": "#00000010",
     "input.background": "#FBFFF6",
-    "input.border": "#0047FD"
+    "input.border": "#0047FD",
+    "input.foreground": "#10142C"
   },
   "tokenColors": [
     {

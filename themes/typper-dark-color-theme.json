@@ -30,7 +30,8 @@
     "tab.inactiveForeground": "#FBFFF699",
     "tab.activeForeground": "#FBFFF6",
     "input.background": "#10142C",
-    "input.border": "#0047FD"
+    "input.border": "#0047FD",
+    "input.foreground": "#FBFFF6"
   },
   "tokenColors": [
     {
