@@ -2,7 +2,7 @@
   "name": "typper-theme",
   "displayName": "Typper Themes",
   "description": "The Typper theme for VS Code is a sleek representation of the innovative AI startup Typper, offering a modern color palette that complements their vibrant branding. Optimized for clarity, the theme enhances productivity and aesthetic pleasure for developers.",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "publisher": "Typper",
   "icon": "icon.png",
   "engines": {
@@ -11,17 +11,34 @@
   "categories": [
     "Themes"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/typper-io/typper-theme.git"
+  },
+  "scripts": {
+    "build": "vsce package --baseContentUrl https://raw.githubusercontent.com/typper-io/typper-theme/main/ --baseImagesUrl https://raw.githubusercontent.com/typper-io/typper-theme/main/ --skip-license",
+    "publish": "vsce publish --baseContentUrl https://raw.githubusercontent.com/typper-io/typper-theme/main/ --baseImagesUrl https://raw.githubusercontent.com/typper-io/typper-theme/main/ --skip-license"
+  },
   "contributes": {
     "themes": [
       {
+        "id": "typper-dark",
         "label": "Typper Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/typper-dark-color-theme.json"
       },
       {
+        "id": "typper-light",
         "label": "Typper Light",
         "uiTheme": "vs",
         "path": "./themes/typper-light-color-theme.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "typper-icons",
+        "label": "Typper Icons",
+        "path": "./icons.json"
       }
     ]
   }

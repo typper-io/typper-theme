@@ -19,7 +19,7 @@ For an even more immersive experience, we recommend combining the Typper theme w
 
 ```json
 {
-  "workbench.iconTheme": "minimal-icons",
+  "workbench.iconTheme": "typper-icons",
   "workbench.colorTheme": "Typper",
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,

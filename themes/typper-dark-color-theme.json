@@ -16,7 +16,7 @@
     "button.foreground": "#FBFFF6",
     "button.hoverBackground": "#0139CB",
     "editorCursor.foreground": "#0047FD",
-    "editor.selectionBackground": "#0047FD60",
+    "editor.selectionBackground": "#44475A90",
     "editorLineNumber.foreground": "#FBFFF699",
     "editorLineNumber.activeForeground": "#FBFFF6",
     "editorWhitespace.foreground": "#FBFFF61A",
@@ -34,61 +34,61 @@
     {
       "scope": ["comment", "punctuation.definition.comment", "string.comment"],
       "settings": {
-        "foreground": "#7BD90599"
+        "foreground": "#6272A4"
       }
     },
     {
       "scope": "constant",
       "settings": {
-        "foreground": "#FFABC7"
+        "foreground": "#8BE9FD"
       }
     },
     {
       "scope": "entity",
       "settings": {
-        "foreground": "#FFABC7"
+        "foreground": "#FFB86C"
       }
     },
     {
       "scope": "variable",
       "settings": {
-        "foreground": "#FBFFF6"
+        "foreground": "#F1FA8C"
       }
     },
     {
       "scope": "keyword",
       "settings": {
-        "foreground": "#0047FD"
+        "foreground": "#FF79C6"
       }
     },
     {
       "scope": "storage",
       "settings": {
-        "foreground": "#0047FD"
+        "foreground": "#FF79C6"
       }
     },
     {
       "scope": "string",
       "settings": {
-        "foreground": "#7BD905"
+        "foreground": "#50FA7B"
       }
     },
     {
       "scope": "invalid",
       "settings": {
-        "foreground": "#FF0000"
+        "foreground": "#FF5555"
       }
     },
     {
       "scope": "entity.name.class",
       "settings": {
-        "foreground": "#FFABC7"
+        "foreground": "#66D9EF"
       }
     },
     {
       "scope": "meta.class",
       "settings": {
-        "foreground": "#FBFFF6"
+        "foreground": "#F8F8F2"
       }
     }
   ]
