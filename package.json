@@ -2,7 +2,7 @@
   "name": "typper-theme",
   "displayName": "Typper Themes",
   "description": "The Typper theme for VS Code is a sleek representation of the innovative AI startup Typper, offering a modern color palette that complements their vibrant branding. Optimized for clarity, the theme enhances productivity and aesthetic pleasure for developers.",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "publisher": "Typper",
   "icon": "icon.png",
   "engines": {
