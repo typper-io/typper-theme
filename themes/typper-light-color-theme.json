@@ -31,7 +31,9 @@
     "tab.activeBorder": "#0047FD",
     "tab.unfocusedActiveBorder": "#FBFFF6",
     "editor.selectionBackground": "#D3D3D360",
-    "editor.lineHighlightBackground": "#00000010"
+    "editor.lineHighlightBackground": "#00000010",
+    "input.background": "#FBFFF6",
+    "input.border": "#0047FD"
   },
   "tokenColors": [
     {
