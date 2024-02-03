@@ -1,34 +1,34 @@
 {
-  "name": "Typper Color Theme",
+  "name": "Typper Light",
   "colors": {
-    "editor.background": "#10142C",
-    "editor.foreground": "#FBFFF6",
+    "editor.background": "#FBFFF6",
+    "editor.foreground": "#10142C",
     "editor.lineHighlightBackground": "#7BD90533",
-    "activityBar.background": "#10142C",
-    "activityBar.foreground": "#FBFFF6",
-    "sideBar.background": "#10142C",
-    "sideBar.foreground": "#FBFFF6",
+    "activityBar.background": "#FBFFF6",
+    "activityBar.foreground": "#10142C",
+    "sideBar.background": "#FBFFF6",
+    "sideBar.foreground": "#10142C",
     "statusBar.background": "#0047FD",
     "statusBar.foreground": "#FBFFF6",
-    "titleBar.activeBackground": "#10142C",
-    "titleBar.activeForeground": "#FBFFF6",
+    "titleBar.activeBackground": "#FBFFF6",
+    "titleBar.activeForeground": "#10142C",
     "button.background": "#0047FD",
     "button.foreground": "#FBFFF6",
-    "button.hoverBackground": "#0139CB",
+    "button.hoverBackground": "#0047FDCC",
     "editorCursor.foreground": "#0047FD",
     "editor.selectionBackground": "#0047FD60",
-    "editorLineNumber.foreground": "#FBFFF699",
-    "editorLineNumber.activeForeground": "#FBFFF6",
-    "editorWhitespace.foreground": "#FBFFF61A",
-    "editorGroupHeader.tabsBackground": "#10142C",
-    "tab.inactiveBackground": "#10142C",
-    "tab.activeBackground": "#2A2B57",
-    "tab.hoverBackground": "#2A2B57",
-    "tab.unfocusedHoverBackground": "#2A2B57",
-    "editorWidget.background": "#10142C",
+    "editorLineNumber.foreground": "#10142C99",
+    "editorLineNumber.activeForeground": "#10142C",
+    "editorWhitespace.foreground": "#10142C1A",
+    "editorGroupHeader.tabsBackground": "#FBFFF6",
+    "tab.inactiveBackground": "#FBFFF6",
+    "tab.activeBackground": "#FBFFF6",
+    "tab.hoverBackground": "#FBFFF6",
+    "tab.unfocusedHoverBackground": "#FBFFF6",
+    "editorWidget.background": "#FBFFF6",
     "editorWidget.border": "#0047FD",
-    "tab.inactiveForeground": "#FBFFF699",
-    "tab.activeForeground": "#FBFFF6"
+    "tab.inactiveForeground": "#10142C99",
+    "tab.activeForeground": "#10142C"
   },
   "tokenColors": [
     {
@@ -52,7 +52,7 @@
     {
       "scope": "variable",
       "settings": {
-        "foreground": "#FBFFF6"
+        "foreground": "#10142C"
       }
     },
     {
@@ -88,7 +88,7 @@
     {
       "scope": "meta.class",
       "settings": {
-        "foreground": "#FBFFF6"
+        "foreground": "#10142C"
       }
     }
   ]

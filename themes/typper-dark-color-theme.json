@@ -1,0 +1,95 @@
+{
+  "name": "Typper Dark",
+  "colors": {
+    "editor.background": "#10142C",
+    "editor.foreground": "#FBFFF6",
+    "editor.lineHighlightBackground": "#7BD90533",
+    "activityBar.background": "#10142C",
+    "activityBar.foreground": "#FBFFF6",
+    "sideBar.background": "#10142C",
+    "sideBar.foreground": "#FBFFF6",
+    "statusBar.background": "#0047FD",
+    "statusBar.foreground": "#FBFFF6",
+    "titleBar.activeBackground": "#10142C",
+    "titleBar.activeForeground": "#FBFFF6",
+    "button.background": "#0047FD",
+    "button.foreground": "#FBFFF6",
+    "button.hoverBackground": "#0139CB",
+    "editorCursor.foreground": "#0047FD",
+    "editor.selectionBackground": "#0047FD60",
+    "editorLineNumber.foreground": "#FBFFF699",
+    "editorLineNumber.activeForeground": "#FBFFF6",
+    "editorWhitespace.foreground": "#FBFFF61A",
+    "editorGroupHeader.tabsBackground": "#10142C",
+    "tab.inactiveBackground": "#10142C",
+    "tab.activeBackground": "#2A2B57",
+    "tab.hoverBackground": "#2A2B57",
+    "tab.unfocusedHoverBackground": "#2A2B57",
+    "editorWidget.background": "#10142C",
+    "editorWidget.border": "#0047FD",
+    "tab.inactiveForeground": "#FBFFF699",
+    "tab.activeForeground": "#FBFFF6"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment", "punctuation.definition.comment", "string.comment"],
+      "settings": {
+        "foreground": "#7BD90599"
+      }
+    },
+    {
+      "scope": "constant",
+      "settings": {
+        "foreground": "#FFABC7"
+      }
+    },
+    {
+      "scope": "entity",
+      "settings": {
+        "foreground": "#FFABC7"
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#FBFFF6"
+      }
+    },
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#0047FD"
+      }
+    },
+    {
+      "scope": "storage",
+      "settings": {
+        "foreground": "#0047FD"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#7BD905"
+      }
+    },
+    {
+      "scope": "invalid",
+      "settings": {
+        "foreground": "#FF0000"
+      }
+    },
+    {
+      "scope": "entity.name.class",
+      "settings": {
+        "foreground": "#FFABC7"
+      }
+    },
+    {
+      "scope": "meta.class",
+      "settings": {
+        "foreground": "#FBFFF6"
+      }
+    }
+  ]
+}
