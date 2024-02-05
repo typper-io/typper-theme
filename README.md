@@ -20,11 +20,25 @@ For an even more immersive experience, we recommend combining the Typper theme w
 ```json
 {
   "workbench.iconTheme": "typper-icons",
-  "workbench.colorTheme": "Typper",
+  "workbench.colorTheme": "typper-dark",
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
   "workbench.statusBar.visible": false,
   "editor.minimap.enabled": false
+}
+```
+
+or
+
+```json
+{
+  "workbench.iconTheme": "symbols",
+  "workbench.colorTheme": "typper-dark",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.statusBar.visible": false,
+  "editor.minimap.enabled": false,
+  "workbench.productIconTheme": "fluent-icons"
 }
 ```
 
